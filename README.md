@@ -95,6 +95,8 @@ Vamos acessar o dashboard do ArgoCD para gerenciar a aplicação.
     kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | ForEach-Object { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
     ```
     *(Copie a senha 🔑 e cole no navegador para fazer login.)*
+    <img width="1920" height="760" alt="login_argocd" src="https://github.com/user-attachments/assets/d6a4105b-92ee-445e-9728-5aff1080b640" />
+
 
 ### Etapa 4: Criar e Sincronizar a Aplicação no ArgoCD 🔄
 

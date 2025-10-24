@@ -126,10 +126,3 @@ Após a sincronização, os pods da aplicação serão iniciados.
     * Abra seu navegador e acesse: `http://localhost:8081`
     * Você deverá ver o site da Online Boutique! [cite_start]🎉 [cite: 16-22]
 
-## 5. Solução de Problemas (Troubleshooting) 🩺
-
-É comum que o status `APP HEALTH` no ArgoCD fique "preso" em `Progressing` 🌀. Isso geralmente não significa que a aplicação falhou, mas sim que o ArgoCD não consegue validar a "saúde" de certos recursos em um ambiente local.
-
-**Verificação Inicial:** Primeiro, confirme se os pods estão realmente rodando.
-```bash
-kubectl get pods

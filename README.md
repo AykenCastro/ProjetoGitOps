@@ -116,6 +116,8 @@ Vamos dizer ao ArgoCD para monitorar seu repositório Git.
 
 3.  Clique em **"CREATE"**.
 4.  Clique no card da aplicação e, em seguida, clique em **"SYNC"** para iniciar o deploy.
+    <img width="1920" height="954" alt="config argo 3" src="https://github.com/user-attachments/assets/2b20bdc6-d7c0-4138-9a5e-5112df91c58e" />
+
 
 ### Etapa 5: Acessar a Aplicação Online Boutique 🛍️
 

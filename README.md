@@ -2,7 +2,7 @@
 
 Este projeto implementa a aplicação de microsserviços "Online Boutique" (um site de e-commerce de demonstração 🛍️) em um cluster Kubernetes local (Rancher Desktop). O deploy é gerenciado inteiramente através de práticas de GitOps, usando o ArgoCD como ferramenta de entrega contínua.
 
-O Git é usado como a única fonte da verdade 📖 para o estado desejado da aplicação. O ArgoCD monitora o repositório Git e aplica automaticamente quaisquer alterações ao cluster Kubernetes, tornando o processo de deploy mais rápido, seguro e auditável.
+O Git é usado como a única fonte para o estado desejado da aplicação. O ArgoCD monitora o repositório Git e aplica automaticamente quaisquer alterações ao cluster Kubernetes, tornando o processo de deploy mais rápido, seguro e auditável.
 
 ## 1. Objetivo do Projeto 🎯
 
@@ -28,7 +28,7 @@ Antes de começar, garanta que você possui os seguintes softwares instalados e 
 
 Siga estas etapas para configurar o ambiente e implantar a aplicação.
 
-### Etapa 1: Preparar o Repositório Git (Fonte da Verdade) 📂
+### Etapa 1: Preparar o Repositório Git 📂
 
 O ArgoCD precisa de um repositório para monitorar.Vamos criar um repositório limpo contendo apenas os manifestos YAML da aplicação.
 

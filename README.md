@@ -10,7 +10,7 @@ Executar o conjunto de microsserviços "Online Boutique" em um cluster Kubernete
 
 ## 2. Arquitetura 🏗️
 
-* **Cluster Kubernetes:** Rancher Desktop 🖥️
+* **Cluster Kubernetes:** [Rancher Desktop](https://rancherdesktop.io/) 🖥️
 * **Aplicação:** Online Boutique (Demo de Microsserviços do Google) 🛒
 * **Ferramenta de GitOps:** ArgoCD ⛵
 * **Fonte da Verdade:** Repositório Git (GitHub) 📂

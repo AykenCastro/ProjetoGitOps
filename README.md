@@ -30,7 +30,7 @@ Siga estas etapas para configurar o ambiente e implantar a aplicação.
 
 ### Etapa 1: Preparar o Repositório Git (Fonte da Verdade) 📂
 
-O ArgoCD precisa de um repositório para monitorar. [cite_start]Vamos criar um repositório limpo contendo apenas os manifestos YAML da aplicação [cite: 40-41].
+O ArgoCD precisa de um repositório para monitorar.Vamos criar um repositório limpo contendo apenas os manifestos YAML da aplicação.
 
 1.  **Criar o Repositório:** No GitHub, crie um novo repositório público (ex: `gitops-microservices`).
 2.  **Clonar o Repositório:** Clone o repositório vazio para sua máquina local.
@@ -38,7 +38,7 @@ O ArgoCD precisa de um repositório para monitorar. [cite_start]Vamos criar um r
     git clone [https://github.com/](https://github.com/)<SEU-USUARIO>/gitops-microservices.git
     cd gitops-microservices
     ```
-3.  [cite_start]**Criar a Estrutura de Pastas:** Crie a estrutura de diretórios recomendada [cite: 42-44].
+3.  **Criar a Estrutura de Pastas:** Crie a estrutura de diretórios recomendada.
     ```bash
     mkdir k8s
     ```
@@ -98,7 +98,7 @@ Vamos acessar o dashboard do ArgoCD para gerenciar a aplicação.
 
 ### Etapa 4: Criar e Sincronizar a Aplicação no ArgoCD 🔄
 
-[cite_start]Vamos dizer ao ArgoCD para monitorar seu repositório Git [cite: 54-55].
+Vamos dizer ao ArgoCD para monitorar seu repositório Git.
 
 1.  Na interface do ArgoCD, clique em **"+ NEW APP"**.
 2.  Preencha os campos:
@@ -124,5 +124,5 @@ Após a sincronização, os pods da aplicação serão iniciados.
     ```
 2.  **Acessar o Site:**
     * Abra seu navegador e acesse: `http://localhost:8081`
-    * Você deverá ver o site da Online Boutique! [cite_start]🎉 [cite: 16-22]
+    * Você deverá ver o site da Online Boutique! 🎉
 

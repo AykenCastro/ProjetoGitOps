@@ -111,6 +111,9 @@ Vamos dizer ao ArgoCD para monitorar seu repositório Git.
     * **Path:** `k8s` (a pasta que criamos)
     * **Cluster URL:** `https://kubernetes.default.svc` (o cluster local)
     * **Namespace:** `default` (onde a aplicação será instalada)
+    <img width="1920" height="827" alt="config argo 1" src="https://github.com/user-attachments/assets/116b0ece-334e-4c44-bf3d-76ee4d55260d" />
+    <img width="1920" height="864" alt="config argo 2" src="https://github.com/user-attachments/assets/23ebaf30-c4e4-4e05-84cf-bb629fefe952" />
+
 3.  Clique em **"CREATE"**.
 4.  Clique no card da aplicação e, em seguida, clique em **"SYNC"** para iniciar o deploy.
 

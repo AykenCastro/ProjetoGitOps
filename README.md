@@ -1,4 +1,4 @@
-#  GitOps na Prática: Online Boutique com Kubernetes e ArgoCD 🚀
+#  Projeto GitOps: Online Boutique com Kubernetes e ArgoCD 🚀
 
 Este projeto implementa a aplicação de microsserviços "Online Boutique" (um site de e-commerce de demonstração 🛍️) em um cluster Kubernetes local (Rancher Desktop). O deploy é gerenciado inteiramente através de práticas de GitOps, usando o ArgoCD como ferramenta de entrega contínua.
 
